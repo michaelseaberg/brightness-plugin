@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT name="Air Booster" projectType="audioplug" buildStandalone="1"
+              jucerVersion="5.2.1" companyName="Seaberg Plugins" bundleIdentifier="com.SeabergPlugins.AirBooster"
+              pluginName="Air Booster" pluginDesc="Air Booster" pluginManufacturer="SeabergPlugins"
+              pluginManufacturerCode="seaP" pluginCode="aBST">
+  <MAINGROUP id="b7gvQg" name="Air Booster">
+    <GROUP id="{E242A25B-32F4-0696-36B5-C8345D63474C}" name="Source">
+      <GROUP id="{1A0E5D28-3B50-EBA9-B87A-33C4A70DEA82}" name="GUI Components">
+        <FILE id="xIZveq" name="BoostKnobLookAndFeel.cpp" compile="1" resource="0"
+              file="Source/BoostKnobLookAndFeel.cpp"/>
+        <FILE id="zJ5iO6" name="ToneSelector.cpp" compile="1" resource="0"
+              file="Source/ToneSelector.cpp"/>
+        <FILE id="oHtFIy" name="ToneSelector.h" compile="0" resource="0" file="Source/ToneSelector.h"/>
+        <FILE id="wVeaaJ" name="BoostKnob.cpp" compile="1" resource="0" file="Source/BoostKnob.cpp"/>
+        <FILE id="uT1NJS" name="BoostKnob.h" compile="0" resource="0" file="Source/BoostKnob.h"/>
+      </GROUP>
+      <FILE id="TzfFbQ" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="xO12jo" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="nwASMi" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="bvqx2J" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../frameworks/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../frameworks/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="3"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="3"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="3"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="3"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="3"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="3"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="3"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="3"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="3"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="3"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="3"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="3"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="3"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="3"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="3"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
